@@ -1,0 +1,32 @@
+@if (images) {
+	<ngb-carousel>
+		<ng-template ngbSlide>
+			<div class="picsum-img-wrapper">
+				<img [src]="images[0]" alt="High Quality H20 1" style="width: 100%;" />
+			</div>
+			<div class="carousel-caption">
+				<h3>Water is H20</h3>
+				<p>this provides overall quality and safety of the water for human consumption.</p>
+			</div>
+		</ng-template>
+		<ng-template ngbSlide>
+			<div class="picsum-img-wrapper">
+				<img [src]="images[1]" alt="High Quality H20 2" style="width: 100%;"/>
+			</div>
+			<div class="carousel-caption">
+				<h3>Water is H20</h3>
+				<p>this provides overall quality and safety of the water for human consumption.</p>
+			</div>
+		</ng-template>
+		<ng-template ngbSlide>
+			<div class="picsum-img-wrapper">
+				<img [src]="images[2]" alt="High Quality H20 3" style="width: 100%;"/>
+			</div>
+			<div class="carousel-caption">
+				<h3>Water is H20</h3>
+				<p>this provides overall quality and safety of the water for human consumption.</p>
+			</div>
+		</ng-template>
+	</ngb-carousel>
+}
+<router-outlet></router-outlet>
